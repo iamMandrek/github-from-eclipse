@@ -9,6 +9,6 @@ public class CustomerThread extends Thread{
 	}
 	@Override
 	public void run() {
-		System.out.println("Customer "+takePetrolAndPay()+" take Petrol & leaves from the Pump");
+		System.out.println("Customer "+takePetrolAndPay()+" take Petrol & leaves  the Pump");
 	}
 }
